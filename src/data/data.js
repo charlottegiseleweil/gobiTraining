@@ -48,12 +48,12 @@ function Data() {
           title: "General InVEST Inputs",
           infotext: [
             {
-              subtitle: "InVEST Software",
+              subtitle: "InVEST",
               text: (
                 <div>
                   <a href="https://naturalcapitalproject.stanford.edu/software/invest">
-                    InVEST (Integrated Valuation of Ecosystem Services and Tradeoffs)
-                  </a>{" "}
+                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
+                  {" "}
                   is a suite of models used to map and value the goods and services from
                   nature that sustain and fulfill human life. It helps explore how changes
                   in ecosystems can lead to changes in the flows of many different
@@ -69,14 +69,28 @@ function Data() {
           title: "Habitat quality model",
           infotext: [
             {
+              subtitle: "InVEST",
+              text: (
+                <div>
+                  <a href="https://naturalcapitalproject.stanford.edu/software/invest">
+                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
+                  {" "}
+                  is a suite of models used to map and value the goods and services from
+                  nature that sustain and fulfill human life. It helps explore how changes
+                  in ecosystems can lead to changes in the flows of many different
+                  benefits to people.
+                </div>
+              ),
+            },
+            {
               subtitle: "Habitat Quality Model",
               text: (
                 <div>
-                  <a
+                  <br /><h5><a
                     href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/habitat_quality.html"
                     target="_blank">
                     User Guide
-                  </a>
+                  </a></h5>
                   <br />
                   InVEST models habitat quality and rarity as proxies for biodiversity,
                   ultimately estimating the extent of habitat and vegetation types across
@@ -92,13 +106,15 @@ function Data() {
               subtitle: "Tabular Model inputs",
               text: (
                 <div>
-                  <a href="DOWNLOAD CSV.html" target="_blank">
+                  <ul>
+                  <li><a href="DOWNLOAD CSV.html" target="_blank">
                     Sensitivity of Land Cover Types to Each Threat
-                  </a>
+                  </a></li>
                   <br />
-                  <a href="DOWNLOAD CSV.html" target="_blank">
+                  <li><a href="DOWNLOAD CSV.html" target="_blank">
                     Threats data
-                  </a>
+                  </a></li>
+                  </ul>
                 </div>
               ),
             },
@@ -110,11 +126,43 @@ function Data() {
           title: "Carbon model",
           infotext: [
             {
-              subtitle: "Description",
+              subtitle: "InVEST",
               text: (
                 <div>
-                  This section has an linked chart connected to the shapefile. Read about
-                  details for this in the readme.
+                  <a href="https://naturalcapitalproject.stanford.edu/software/invest">
+                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
+                  {" "}
+                  is a suite of models used to map and value the goods and services from
+                  nature that sustain and fulfill human life. It helps explore how changes
+                  in ecosystems can lead to changes in the flows of many different
+                  benefits to people.
+                </div>
+              ),
+            },
+            {
+              subtitle: "Carbon Storage & Sequestration Model",
+              text: (
+                <div>
+                  <br /><h5><a
+                    href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/carbonstorage.html"
+                    target="_blank">
+                    User Guide
+                  </a></h5>
+                  <br />
+                  The InVEST Carbon Storage and Sequestration model uses maps of land use along with stocks in four carbon pools (aboveground biomass, belowground biomass, soil and dead organic matter) to estimate the amount of carbon currently stored in a landscape or the amount of carbon sequestered over time.
+                </div>
+              ),
+            },
+            {
+              subtitle: "Tabular Model inputs",
+              text: (
+                <div>
+                  <ul>
+                  <li><a href="DOWNLOAD CSV.html" target="_blank">
+                    Sample biophysical table
+                  </a></li>
+                  <br />
+                  </ul>
                 </div>
               ),
             },
@@ -147,8 +195,8 @@ function Data() {
       datasets: [
         {
           id: 0,
-          sectionID: 0,
-          title: "Accessibility",
+          sectionID: 1,
+          title: "Accessibility (Protected Areas)",
           type: "shapefile",
           src: "accessibility.zip",
           style: Style().newColorStyle,
@@ -167,12 +215,22 @@ function Data() {
           style: Style().redOutline,
           legendSrc: "aoi_legend.png",
           selected: true,
-          link: "https://en.wikipedia.org/wiki/Region_of_interest",
+          link: "Placeholder",
         },
         {
           id: 2,
-          sectionID: 0,
-          title: "Land use cover",
+          sectionID: 1,
+          title: "LULC",
+          type: "raster",
+          src: "lulc_modis.tif", // must be projected with EPSG:4326
+          style: Style().landcoverColor,
+          legendSrc: "lulc_legend.png",
+          selected: false,
+        },
+        {
+          id: 10,
+          sectionID: 2,
+          title: "LULC",
           type: "raster",
           src: "lulc_modis.tif", // must be projected with EPSG:4326
           style: Style().landcoverColor,

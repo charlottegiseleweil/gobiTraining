@@ -105,13 +105,8 @@ In days 2-4, Hackathon teams will install ecosystem services models on their com
           <hr className="hr-about" />
           <Row className=" justify-content-md-center">
             <h5 className="p-4 font-weight-normal ">
-              Select map layers using the left menu. See summarised data by
+              Select map layers using the left menu. See more info by
               clicking the <InfoCircle /> Icon. <br />
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim.
               <br />
               
             </h5>
