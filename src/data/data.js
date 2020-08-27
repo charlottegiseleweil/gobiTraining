@@ -11,7 +11,7 @@ function Data() {
         showInfoButton: true, // show more information for all data sections
         showDownloadButton: true, // show download button if there is a link to the dataset
         chartIsLinkedTo: 4, // the datasetID the chart should be linked to, if no linking write chartIsLinkedTo: null
-        showLandingPage: true, // toggle landing page
+        showLandingPage: false, // toggle landing page
       },
 
       // ADD YOUR BASEMAP HERE
@@ -48,31 +48,42 @@ function Data() {
       dataSections: [
         {
           id: 0,
-          title: "Habitat quality model inputs",
+          title: "General InVEST Inputs",
           infotext: [
             {
-              subtitle: "Description",
+              subtitle: "InVEST Software",
+              text:
+                "<a href='https://naturalcapitalproject.stanford.edu/software/invest'>InVEST (Integrated Valuation of Ecosystem Services and Tradeoffs)</a> \
+                 is a suite of models used to map and value the goods and services from nature that sustain and fulfill human life.  It helps explore how changes in ecosystems can lead to changes in the flows of many different benefits to people. \
+                ",
+            },
+          ],
+          img: "natcap.png",
+          expanded: false,
+        },
+        {
+          id: 1,
+          title: "Habitat quality model",
+          infotext: [
+            {
+              subtitle: "Habitat Quality Model",
               text: (
                 <div>
-                  This section includes two shapefiles, one polygon and one pointmap. The
-                  pointmap has tooltips and popups that are displayed when the icon is
-                  clicked.{" "}
-                  <a
-                    href="https://github.com/jade-md/mongolia_viewer.git"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    This is a link to the Github repo
-                  </a>
-                </div>
+                    <a href='https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/habitat_quality.html' target='_blank'>\
+                  User Guide</a> InVEST models habitat quality and rarity as proxies for biodiversity, ultimately estimating the extent of habitat and vegetation types across a landscape, and their state of degradation. \
+                  Habitat quality and rarity are a function of four factors: each threat’s relative impact, the relative sensitivity of each habitat type to each threat, the distance between habitats and sources of threats, \
+                  and the degree to which the land is legally protected.
+              </div>
               ),
             },
             {
-              subtitle: "Method",
+              subtitle: "Tabular Model inputs",
               text: (
                 <div>
-                  Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Aenean commodo
-                  ligula eget dolor.Aenean massa. Cum sociis natoque penatibus et magnis
-                  disparturient montes, nascetur ridiculus mus.
+                    <a href='DOWNLOAD CSV.html' target='_blank'> \
+                         Sensitivity of Land Cover Types to Each Threat </a> \
+                    <a href='DOWNLOAD CSV.html' target='_blank'> \
+                          Threats data </a>
                 </div>
               ),
             },
@@ -81,8 +92,8 @@ function Data() {
           expanded: false,
         },
         {
-          id: 1,
-          title: "Habitat quality model outputs",
+          id: 2,
+          title: "Carbon model",
           infotext: [
             {
               subtitle: "Description",

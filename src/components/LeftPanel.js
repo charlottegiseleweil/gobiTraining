@@ -90,7 +90,7 @@ class LeftPanel extends React.Component {
           className=" p-2 font-weight-light color-white"
           style={{ borderBottom: "3px solid var(--highlight-color)" }}
         >
-          Explore
+          Datasets
         </h1>
         <Col className="p-0">{this.makeCards(this.props.sections)}</Col>
 

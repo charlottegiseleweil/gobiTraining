@@ -10,18 +10,25 @@ import Footer from "./components/Footer";
 import DashboardPage from "./pages/DashboardPage";
 import AboutPage from "./pages/AboutPage";
 import LandingPage from "./components/Landing";
+import RangelandsPage from "./pages/RangelandsPage";
+
 import Data from "./data/data";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      viewerTitle: "viewerTemplate",
+      viewerTitle: "InVEST Training ~ NatCap WCS ~ Mongolia September 2020",
       menuLinks: [
         {
-          title: "Explorer",
+          title: "InVEST Models",
           path: "/",
           page: <DashboardPage props={Data().explorer} />,
+        },
+        {
+          title: "Rangelands",
+          path: "/rangelands",
+          page: <RangelandsPage />,
         },
         {
           title: "About",

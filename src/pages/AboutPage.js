@@ -13,13 +13,33 @@ const noProfileImg = require("../static/images/no-profile-img.png");
 // Add all contributors to this array
 let contributors = [
   {
+    name: "Ginger Kowal",
+    jobTitle: "Gobi Training Lead, GIS Programmer Analyst, NatCap, Stanford University",
+    img: require("../static/images/gingerkowal.png"),
+  },
+  {
     name: "Charlotte Weil",
-    jobTitle: "Interactive Visualization",
+    jobTitle: "Data scientist, NatCap, Stanford University",
     img: require("../static/images/cw.png"), // if none provided the noProfileImg will be used
   },
   {
-    name: "Anna F. Häägg",
-    jobTitle: "Interactive Visualization",
+    name: "Lori Avila",
+    jobTitle: "Training Coordinator, NatCap, Stanford",
+    img: require("../static/images/no-profile-img.png"),
+  },
+  {
+    name: "Otgonsuren Avirmed",
+    jobTitle: "Mongolia Program Office, Wildlife Conservation Society (WCS)",
+    img: require("../static/images/no-profile-img.png"),
+  },
+  {
+    name: "Jade Delevaux",
+    jobTitle: "Life Science Researcher, NatCap, Stanford University",
+    img: require("../static/images/no-profile-img.png"),
+  },
+  {
+    name: "Anna Häägg",
+    jobTitle: "Viewer Support",
     img: require("../static/images/af.png"),
   },
 ];
@@ -38,13 +58,13 @@ function AboutPage(props) {
       >
         <Row className="p-1 justify-content-md-center">
           <h1 className="text-center text-white font-weight-light display-1">
-            About
+            Bringing Natural Capital Knowledge to Mongolia’s Gobi Steppe
           </h1>
         </Row>
         <hr className="hr-about" />
         <Row className="p-1 justify-content-md-center">
           <h1 className="text-center text-white font-weight-light">
-            One line about what you viewer is for
+            This four-day virtual event will introduce participants to the Natural Capital Approach and give teams of participants hands-on experience with three ecosystem services models.  
           </h1>
         </Row>
       </Col>
@@ -57,22 +77,29 @@ function AboutPage(props) {
           {/* Project information*/}
           <Row className=" justify-content-md-center">
             <h5 className="p-4 font-weight-normal ">
-              Information about the Project... Lorem ipsum dolor sit amet,
-              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-              Aenean massa. Cum sociis natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Donec quam felis,
-              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-              massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-              vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-              venenatis vitae, justo. Nullam dictum felis eu pede mollis
-              pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
-              nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+              Welcome!
             </h5>
           </Row>
+          {/* Agenda */}
+          <Row className="p-1 justify-content-md-center">
+            <h2 className="text-center font-weight-normal ">
+              Agenda
+            </h2>
+          </Row>
+          <hr className="hr-about" />
+          <Row className=" justify-content-md-center">
+            <h5 className="p-4 font-weight-normal ">
+              Day 1 of the virtual event will give participants an introduction to the concepts, approaches, and tools developed by the Natural Capital Project to enhance understanding of ecosystem services.
+In days 2-4, Hackathon teams will install ecosystem services models on their computers and complete exercises using model input data provided by the instructors. Each day will have an assigned exercise and accompanying quiz. Find links to the input data, exercise, and quiz in the daily schedule for that day.
+<br /> <br /> NEED TO PUT THE FULL AGENDA HERE !!!
+              <br />    
+            </h5>
+          </Row>
+
           {/* How to use the viewer */}
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">
-              How to use the viewer
+              How to Use this Viewer
             </h2>
           </Row>
           <hr className="hr-about" />
@@ -86,35 +113,25 @@ function AboutPage(props) {
               Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
               sem. Nulla consequat massa quis enim.
               <br />
-              <br />
-              Questions, comments, or feedback about the viewer? Please send us
-              an <a href="mailto: abc@example.com">email</a>
+              
             </h5>
           </Row>
           {/* example of 2 columns*/}
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">
-              This is an example of 2 columns
+              Contacts
             </h2>
           </Row>
           <hr className="hr-about" />
           <Row className=" justify-content-md-center">
             <Col md={6} className="p-0">
               <h5 className="p-4 font-weight-normal ">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim.
+                If you have trouble with software or exercises, contact your instructors for this training: <a href="mailto: chweil@stanford.edu">Charlotte Weil</a>,<a href="mailto: gkowal@stanford.edu">Ginger Kowal</a>, <a href="mailto: jademd@stanford.edu">Jade Delevaux</a>.
               </h5>
             </Col>
             <Col md={6} className="p-0">
               <h5 className="p-4 font-weight-normal ">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim.
+                If you have trouble accessing training materials, contact <a href="mailto: lavila@stanford.edu">Lori Avila</a>.
               </h5>
             </Col>
           </Row>
