@@ -31,7 +31,9 @@ const bluesColor = (d) => {
     ? "#6baed6"
     : d > 0.2
     ? "#bdd7e7"
-    : "#eff3ff";
+    : d > 0
+    ? "#eff3ff"
+    : null;
 };
 const greensColor = (d) => {
   return d > 0.8
@@ -45,26 +47,30 @@ const greensColor = (d) => {
     : "#edf8e9";
 };
 const redsColor = (d) => {
-  return d > 0.8
+  return d > 0.4
     ? "#a50f15"
-    : d > 0.6
+    : d > 0.3
     ? "#de2d26"
-    : d > 0.4
-    ? "#fb6a4a"
     : d > 0.2
+    ? "#fb6a4a"
+    : d > 0.1
     ? "#fcae91"
-    : "#fee5d9";
+    : d > 0
+    ? "#fee5d9"
+    : null;
 };
 const purplesColor = (d) => {
-  return d > 0.8
+  return d > 0.44
     ? "#54278f"
-    : d > 0.6
+    : d > 0.33
     ? "#756bb1"
-    : d > 0.4
+    : d > 0.22
     ? "#9e9ac8"
-    : d > 0.2
+    : d > 0.11
     ? "#cbc9e2"
-    : "#f2f0f7";
+    : d > 0
+    ? "#f2f0f7"
+    : null;
 };
 
 /*Examples catagorical color schema*/
@@ -74,6 +80,98 @@ const greenAndRedColor = (d) => {
       return "#ab1700";
     case -1:
       return "#00ab39";
+    default:
+      return null;
+  }
+};
+
+const Agriculture = (d) => {
+  switch (d) {
+    case 1:
+      return "#acac31";
+    default:
+      return null;
+  }
+};
+
+const Urban = (d) => {
+  switch (d) {
+    case 0:
+      return "#000000";
+    default:
+      return null;
+  }
+};
+
+const Roads = (d) => {
+  switch (d) {
+    case 1:
+      return "#595959";
+    default:
+      return null;
+  }
+};
+
+const Railways = (d) => {
+  switch (d) {
+    case 1:
+      return "#2c2c2c";
+    default:
+      return null;
+  }
+};
+
+const Mines = (d) => {
+  switch (d) {
+    case 1:
+      return "#950000";
+    default:
+      return null;
+  }
+};
+
+const landcoverColor = (d) => {
+  switch (d) {
+    case 0:
+      return "#000000";
+    case 1:
+      return "#ffffff";
+    case 2:
+      return "#73004c";
+    case 3:
+      return "#004000";
+    case 4:
+      return "#008000";
+    case 5:
+      return "#d2d291";
+    case 6:
+      return "#baba2d";
+    case 7:
+      return "#ff8000";
+    case 8:
+      return "#f2b59b";
+    case 9:
+      return "#949768";
+    case 10:
+      return "#804000";
+    case 11:
+      return "#808080";
+    case 12:
+      return "#000000";
+    case 13:
+      return "#ffff00";
+    case 14:
+      return "#91d7d7";
+    case 15:
+      return "#a87000";
+    case 16:
+      return "#a87000";
+    case 17:
+      return "#a87000";
+    case 18:
+      return "#ff0000";
+    case 19:
+      return "#0000ff";
     default:
       return null;
   }
@@ -154,6 +252,14 @@ function Style() {
     reds: reds,
     purples: purples,
     greenAndRedRaster: greenAndRedColor, // raster only need a color
+    Roads: Roads,
+    landcoverColor: landcoverColor,
+    Agriculture: Agriculture,
+    Railways: Railways,
+    Mines: Mines,
+    Nightlight: redsColor,
+    Urban: Urban,
+    Herders: purplesColor,
   };
 }
 
