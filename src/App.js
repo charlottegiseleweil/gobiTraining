@@ -11,6 +11,7 @@ import DashboardPage from "./pages/DashboardPage";
 import AboutPage from "./pages/AboutPage";
 import LandingPage from "./components/Landing";
 import RangelandsPage from "./pages/RangelandsPage";
+import HackathonPage from "./pages/HackathonPage";
 
 import Data from "./data/data";
 
@@ -31,7 +32,12 @@ class App extends React.Component {
           page: <RangelandsPage />,
         },
         {
-          title: "About",
+          title: "Hackathon",
+          path: "/hackathon",
+          page: <HackathonPage />,
+        },
+        {
+          title: "Resources",
           path: "/about",
           page: <AboutPage />,
         },
@@ -52,8 +58,7 @@ class App extends React.Component {
           exact={true}
           activeStyle={{ color: "var(--highlight-color)" }}
           to={item.path}
-          key={item.title}
-        >
+          key={item.title}>
           {item.title}
         </NavLink>
       );
@@ -62,14 +67,7 @@ class App extends React.Component {
 
   makeRouter = (headerlinks) => {
     return headerlinks.map((item) => {
-      return (
-        <Route
-          path={item.path}
-          exact
-          render={() => item.page}
-          key={item.title}
-        />
-      );
+      return <Route path={item.path} exact render={() => item.page} key={item.title} />;
     });
   };
 
@@ -84,8 +82,7 @@ class App extends React.Component {
               {this.makeHeaderLinks(this.state.menuLinks)}
               <h5
                 className="nav-link cursor-pointer"
-                onClick={() => this.setState({ showLandingPage: true })}
-              >
+                onClick={() => this.setState({ showLandingPage: true })}>
                 <PatchQuestion />
               </h5>
             </Nav>
@@ -100,10 +97,7 @@ class App extends React.Component {
 
         {/* Landing page*/}
         {this.state.showLandingPage && (
-          <LandingPage
-            name={this.state.viewerTitle}
-            updateState={this.updateState}
-          />
+          <LandingPage name={this.state.viewerTitle} updateState={this.updateState} />
         )}
       </Router>
     );
