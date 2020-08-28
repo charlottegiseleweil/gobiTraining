@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import { ChevronBarUp, ChevronDown, InfoCircle } from "react-bootstrap-icons";
 
 import CardInfo from "../components/CardInfo";
+import CSVCardInfo from "../components/csvCardInfo";
 
 function Card(props) {
   // mini function to add all data sets to the section
@@ -23,14 +24,25 @@ function Card(props) {
     });
   };
 
+  const csvMakeCardInfo = () => {
+    return props.csvDatasets.map((item) => {
+      return (
+        <div key={item.id}>
+          {item.sectionID === props.item.id && (
+            <CSVCardInfo item={item} showDownloadButton={props.showDownloadButton} />
+          )}
+        </div>
+      );
+    });
+  };
+
   return (
     <div className="dataSection p-0 m-1">
       <Row className="p-2 m-1 color-white">
         <Col sm={10} className="p-0 ">
           <h4
             onClick={(e) => props.expandSection(props.item)}
-            className="font-weight-normal cursor-pointer"
-          >
+            className="font-weight-normal cursor-pointer">
             {props.item.title}
           </h4>
         </Col>
@@ -38,8 +50,7 @@ function Card(props) {
           <h5
             onClick={(e) => props.expandSection(props.item)}
             style={{ margin: "0.25rem 0" }}
-            className="hover-highlight"
-          >
+            className="hover-highlight">
             {!props.item.expanded && <ChevronDown />}
             {props.item.expanded && <ChevronBarUp />}
           </h5>
@@ -57,6 +68,7 @@ function Card(props) {
       </Row>
       {/* Add all data sets to the section*/}
       {props.item.expanded && makeCardInfo()}
+      {props.item.expanded && csvMakeCardInfo()}
     </div>
   );
 }

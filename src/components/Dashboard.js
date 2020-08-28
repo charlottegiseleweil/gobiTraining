@@ -74,14 +74,14 @@ class Dashboard extends React.Component {
                 updateDatasets={this.updateDatasets}
                 updateSelectedDatasets={this.updateSelectedDatasets}
                 selectedDatasets={this.state.selectedDatasets}
+                csvDatasets={this.props.data.csvDatasets}
               />
             </Col>
             {this.state.SecondaryPanel.show && (
               <Col
                 sm={3}
                 className=" p-0 hidden-md-down bg-black "
-                style={{ zIndex: "2" }}
-              >
+                style={{ zIndex: "2" }}>
                 <SecondaryPanel
                   item={this.state.dataSections[this.state.SecondaryPanel.id]}
                   charts={this.state.charts}

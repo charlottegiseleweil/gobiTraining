@@ -45,97 +45,23 @@ function Data() {
       dataSections: [
         {
           id: 0,
-          title: "General InVEST Inputs",
+          title: "Carbon inputs",
           infotext: [
             {
               subtitle: "InVEST",
               text: (
                 <div>
-                  <a href="https://naturalcapitalproject.stanford.edu/software/invest">
-                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
-                  {" "}
-                  is a suite of models used to map and value the goods and services from
-                  nature that sustain and fulfill human life. It helps explore how changes
-                  in ecosystems can lead to changes in the flows of many different
-                  benefits to people.
-                </div>
-              ),
-            },
-          ],
-          expanded: true,
-        },
-        {
-          id: 1,
-          title: "Habitat quality model",
-          infotext: [
-            {
-              subtitle: "InVEST",
-              text: (
-                <div>
-                  <a href="https://naturalcapitalproject.stanford.edu/software/invest">
-                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
-                  {" "}
-                  is a suite of models used to map and value the goods and services from
-                  nature that sustain and fulfill human life. It helps explore how changes
-                  in ecosystems can lead to changes in the flows of many different
-                  benefits to people.
-                </div>
-              ),
-            },
-            {
-              subtitle: "Habitat Quality Model",
-              text: (
-                <div>
-                  <br /><h5><a
-                    href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/habitat_quality.html"
-                    target="_blank">
-                    User Guide
-                  </a></h5>
-                  <br />
-                  InVEST models habitat quality and rarity as proxies for biodiversity,
-                  ultimately estimating the extent of habitat and vegetation types across
-                  a landscape, and their state of degradation. Habitat quality and rarity
-                  are a function of four factors: each threat’s relative impact, the
-                  relative sensitivity of each habitat type to each threat, the distance
-                  between habitats and sources of threats, and the degree to which the
-                  land is legally protected.
-                </div>
-              ),
-            },
-            {
-              subtitle: "Tabular Model inputs",
-              text: (
-                <div>
-                  <ul>
-                  <li><a href="DOWNLOAD CSV.html" target="_blank">
-                    Sensitivity of Land Cover Types to Each Threat
-                  </a></li>
-                  <br />
-                  <li><a href="DOWNLOAD CSV.html" target="_blank">
-                    Threats data
-                  </a></li>
-                  </ul>
-                </div>
-              ),
-            },
-          ],
-          expanded: false,
-        },
-        {
-          id: 2,
-          title: "Carbon model",
-          infotext: [
-            {
-              subtitle: "InVEST",
-              text: (
-                <div>
-                  <a href="https://naturalcapitalproject.stanford.edu/software/invest">
-                    InVEST </a> (Integrated Valuation of Ecosystem Services and Tradeoffs)
-                  {" "}
-                  is a suite of models used to map and value the goods and services from
-                  nature that sustain and fulfill human life. It helps explore how changes
-                  in ecosystems can lead to changes in the flows of many different
-                  benefits to people.
+                  <a
+                    href="https://naturalcapitalproject.stanford.edu/software/invest"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    InVEST
+                  </a>{" "}
+                  (Integrated Valuation of Ecosystem Services and Tradeoffs) is a suite of
+                  models used to map and value the goods and services from nature that
+                  sustain and fulfill human life. It helps explore how changes in
+                  ecosystems can lead to changes in the flows of many different benefits
+                  to people.
                 </div>
               ),
             },
@@ -143,26 +69,66 @@ function Data() {
               subtitle: "Carbon Storage & Sequestration Model",
               text: (
                 <div>
-                  <br /><h5><a
-                    href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/carbonstorage.html"
-                    target="_blank">
-                    User Guide
-                  </a></h5>
-                  <br />
-                  The InVEST Carbon Storage and Sequestration model uses maps of land use along with stocks in four carbon pools (aboveground biomass, belowground biomass, soil and dead organic matter) to estimate the amount of carbon currently stored in a landscape or the amount of carbon sequestered over time.
+                  <h5 className="p-2">
+                    <a
+                      href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/carbonstorage.html"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      User Guide
+                    </a>
+                  </h5>
+                  The InVEST Carbon Storage and Sequestration model uses maps of land use
+                  along with stocks in four carbon pools (aboveground biomass, belowground
+                  biomass, soil and dead organic matter) to estimate the amount of carbon
+                  currently stored in a landscape or the amount of carbon sequestered over
+                  time.
+                </div>
+              ),
+            },
+          ],
+          expanded: false,
+        },
+        {
+          id: 1,
+          title: "Habitat quality inputs",
+          infotext: [
+            {
+              subtitle: "InVEST",
+              text: (
+                <div>
+                  <a
+                    href="https://naturalcapitalproject.stanford.edu/software/invest"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    InVEST
+                  </a>{" "}
+                  (Integrated Valuation of Ecosystem Services and Tradeoffs) is a suite of
+                  models used to map and value the goods and services from nature that
+                  sustain and fulfill human life. It helps explore how changes in
+                  ecosystems can lead to changes in the flows of many different benefits
+                  to people.
                 </div>
               ),
             },
             {
-              subtitle: "Tabular Model inputs",
+              subtitle: "Habitat Quality Model",
               text: (
                 <div>
-                  <ul>
-                  <li><a href="DOWNLOAD CSV.html" target="_blank">
-                    Sample biophysical table
-                  </a></li>
-                  <br />
-                  </ul>
+                  <h5 className="p-2">
+                    <a
+                      href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/habitat_quality.html"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      User Guide
+                    </a>
+                  </h5>
+                  InVEST models habitat quality and rarity as proxies for biodiversity,
+                  ultimately estimating the extent of habitat and vegetation types across
+                  a landscape, and their state of degradation. Habitat quality and rarity
+                  are a function of four factors: each threat’s relative impact, the
+                  relative sensitivity of each habitat type to each threat, the distance
+                  between habitats and sources of threats, and the degree to which the
+                  land is legally protected.
                 </div>
               ),
             },
@@ -195,6 +161,52 @@ function Data() {
       datasets: [
         {
           id: 0,
+          sectionID: 0,
+          title: "Area of interest",
+          type: "shapefile",
+          src: "aoi_gcs.zip",
+          style: Style().redOutline,
+          legendSrc: "aoi_legend.png",
+          selected: true,
+          link: "Placeholder",
+        },
+        {
+          id: 1,
+          sectionID: 1,
+          title: "Area of interest",
+          type: "shapefile",
+          src: "aoi_gcs.zip",
+          style: Style().redOutline,
+          legendSrc: "aoi_legend.png",
+          selected: false,
+          link: "Placeholder",
+        },
+        {
+          id: 2,
+          sectionID: 0,
+          title: "LULC",
+          type: "raster",
+          src: "lulc_modis.tif", // must be projected with EPSG:4326
+          style: Style().landcoverColor,
+          legendSrc: "lulc_legend.png",
+          selected: false,
+          link:
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712952069944",
+        },
+        {
+          id: 3,
+          sectionID: 1,
+          title: "LULC",
+          type: "raster",
+          src: "lulc_modis.tif", // must be projected with EPSG:4326
+          style: Style().landcoverColor,
+          legendSrc: "lulc_legend.png",
+          selected: false,
+          link:
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712952069944",
+        },
+        {
+          id: 4,
           sectionID: 1,
           title: "Accessibility (Protected Areas)",
           type: "shapefile",
@@ -207,38 +219,7 @@ function Data() {
             "https://drive.google.com/open?id=1UP8wiEaM3Bry6jwC8nVpWVfZefWiOWIf&authuser=jademd%40stanford.edu&usp=drive_fs",
         },
         {
-          id: 1,
-          sectionID: 0,
-          title: "Area of interest",
-          type: "shapefile",
-          src: "aoi_gcs.zip",
-          style: Style().redOutline,
-          legendSrc: "aoi_legend.png",
-          selected: true,
-          link: "Placeholder",
-        },
-        {
-          id: 2,
-          sectionID: 1,
-          title: "LULC",
-          type: "raster",
-          src: "lulc_modis.tif", // must be projected with EPSG:4326
-          style: Style().landcoverColor,
-          legendSrc: "lulc_legend.png",
-          selected: false,
-        },
-        {
-          id: 10,
-          sectionID: 2,
-          title: "LULC",
-          type: "raster",
-          src: "lulc_modis.tif", // must be projected with EPSG:4326
-          style: Style().landcoverColor,
-          legendSrc: "lulc_legend.png",
-          selected: false,
-        },
-        {
-          id: 3,
+          id: 5,
           sectionID: 1,
           title: "Roads",
           type: "raster",
@@ -250,7 +231,7 @@ function Data() {
             "https://drive.google.com/file/d/1kFYY6DCSpG45fM9lkJ6LNsnX5DDS-H0a/view?usp=sharing",
         },
         {
-          id: 4,
+          id: 6,
           sectionID: 1,
           title: "Agriculture",
           type: "raster",
@@ -262,7 +243,7 @@ function Data() {
             "https://drive.google.com/file/d/1kKC1YQRvmgQZbuuiPzeVrbOR90qIVkJs/view?usp=sharing",
         },
         {
-          id: 5,
+          id: 7,
           sectionID: 1,
           title: "Urban Areas",
           type: "raster",
@@ -274,7 +255,7 @@ function Data() {
             "https://drive.google.com/file/d/1kSMBXoN174ox3iSqh6YdlwHFw6BenhRg/view?usp=sharing",
         },
         {
-          id: 6,
+          id: 8,
           sectionID: 1,
           title: "Herders",
           type: "raster",
@@ -286,7 +267,7 @@ function Data() {
             "https://drive.google.com/file/d/1kLGPrOJ2iFlUxqgHETPEr16VMWEH2cfH/view?usp=sharing",
         },
         {
-          id: 7,
+          id: 9,
           sectionID: 1,
           title: "Mines",
           type: "raster",
@@ -298,7 +279,7 @@ function Data() {
             "https://drive.google.com/file/d/1kPEZKwWBcvfS00urkVobl9tzw7yzKemw/view?usp=sharing",
         },
         {
-          id: 8,
+          id: 10,
           sectionID: 1,
           title: "Nightlight",
           type: "raster",
@@ -310,7 +291,7 @@ function Data() {
             "https://drive.google.com/file/d/1kUA_OwAITCg-gWVsKr9Ia7-Ytm7Um9QP/view?usp=sharing",
         },
         {
-          id: 9,
+          id: 11,
           sectionID: 1,
           title: "Railways",
           type: "raster",
@@ -368,6 +349,27 @@ function Data() {
           chartProperties: ["L_ann", "Qf_ann", "Qb_ann"], // properties from the shapefile to display on the chart
           namesOfProperties: ["Property1", "Property2", "Property3"], // Names of the properties (use the same names in the chart for the colors)
         },*/
+      ],
+
+      csvDatasets: [
+        {
+          id: 0,
+          sectionID: 0,
+          title: "Example Biophysical table",
+          link: "carbon_sample_biophysical_table.csv",
+        },
+        {
+          id: 1,
+          sectionID: 1,
+          title: "Sensitivity of Land Cover Types to Each Threat",
+          link: "hqm_sensitivity.csv",
+        },
+        {
+          id: 2,
+          sectionID: 1,
+          title: "Threats data",
+          link: "hqm_threats.csv",
+        },
       ],
 
       /* HERE YOU INCLUDE THE CHART --remove if you don't want a chart

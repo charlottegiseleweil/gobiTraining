@@ -16,7 +16,7 @@ let contributors = [
   {
     name: "Ginger Kowal",
     jobTitle: "Gobi Training Lead, GIS Programmer Analyst, NatCap, Stanford University",
-    img: require("../static/images/gingerkowal.png"),
+    img: require("../static/images/ginger_kowal.jpg"),
   },
   {
     name: "Charlotte Weil",
@@ -26,17 +26,17 @@ let contributors = [
   {
     name: "Lori Avila",
     jobTitle: "Training Coordinator, NatCap, Stanford",
-    img: require("../static/images/no-profile-img.png"),
+    img: require("../static/images/lori-avila.jpg"),
   },
   {
     name: "Otgonsuren Avirmed",
     jobTitle: "Mongolia Program Office, Wildlife Conservation Society (WCS)",
-    img: require("../static/images/no-profile-img.png"),
+    img: require("../static/images/oggie.jpg"),
   },
   {
     name: "Jade Delevaux",
     jobTitle: "Life Science Researcher, NatCap, Stanford University",
-    img: require("../static/images/no-profile-img.png"),
+    img: require("../static/images/jade.png"),
   },
   {
     name: "Anna Häägg",
@@ -77,15 +77,9 @@ function AboutPage(props) {
           {/* change the size of the main container*/}
           {/* Here you can include the sections you want in your about page*/}
           {/* Project information*/}
-          <Row className=" justify-content-md-center">
-            <h5 className="p-4 font-weight-normal ">Welcome!</h5>
-          </Row>
-          <Row className=" justify-content-md-center">
-            <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls="true" />
-          </Row>
           {/* Agenda */}
           <Row className="p-1 justify-content-md-center">
-            <h2 className="text-center font-weight-normal ">Agenda</h2>
+            <h2 className="text-center font-weight-normal ">Agenda & Resources </h2>
           </Row>
           <hr className="hr-about" />
           <Row className=" justify-content-md-center">
@@ -547,9 +541,7 @@ function AboutPage(props) {
                   </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Input data: Carbon Model !!MISSING LINK!!
-                  </a>
+                  <a href="">Input data: Carbon Model</a>
                 </li>
                 <li>
                   <a href="" target="_blank" rel="noopener noreferrer">
@@ -659,6 +651,9 @@ function AboutPage(props) {
           <hr className="hr-about" />
           <Row className="p-3 justify-content-md-center">
             {makeContributors(contributors)}
+          </Row>
+          <Row className=" justify-content-md-center">
+            <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
           </Row>
         </Col>
       </Row>

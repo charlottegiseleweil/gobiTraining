@@ -19,9 +19,7 @@ class LeftPanel extends React.Component {
   // function for expanding the section
   expandSection = (sectionID) => {
     let dataSections = [...this.props.sections];
-    dataSections[sectionID].expanded = dataSections[sectionID].expanded
-      ? false
-      : true;
+    dataSections[sectionID].expanded = dataSections[sectionID].expanded ? false : true;
     this.props.updateState(dataSections);
   };
 
@@ -46,6 +44,7 @@ class LeftPanel extends React.Component {
           item={item}
           key={item.id}
           datasets={this.props.datasets}
+          csvDatasets={this.props.csvDatasets}
           showInfoButton={this.props.config.showInfoButton}
           showDownloadButton={this.props.config.showDownloadButton}
           click={() => this.showInfo(item.id)}
@@ -88,15 +87,12 @@ class LeftPanel extends React.Component {
       <Container fluid={true} className="p-0 leftbar">
         <h1
           className=" p-2 font-weight-light color-white"
-          style={{ borderBottom: "3px solid var(--highlight-color)" }}
-        >
+          style={{ borderBottom: "3px solid var(--highlight-color)" }}>
           Datasets
         </h1>
         <Col className="p-0">{this.makeCards(this.props.sections)}</Col>
 
-        {displayChart && (
-          <div className="dataSection p-2 m-1">{this.makeChart()}</div>
-        )}
+        {displayChart && <div className="dataSection p-2 m-1">{this.makeChart()}</div>}
       </Container>
     );
   }
