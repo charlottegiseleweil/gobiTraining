@@ -15,7 +15,7 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
-a {
+#main_content a {
   color: #92c7ff;
 }
 .color-white {

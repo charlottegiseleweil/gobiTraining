@@ -108,7 +108,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 All participants log on to Zoom for a virtual welcome and orientation to
-                the workshop. Join the Zoom meeting:{" "}
+                the workshop. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95721627095?pwd=M0dwVjJmR1I1bjlQc3FjRUNnYWZSUT09"
                   target="_blank"
@@ -125,7 +126,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Jade
-                Delevaux. Join the Zoom meeting:{" "}
+                Delevaux. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
                   target="_blank"
@@ -143,7 +145,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for a virtual discussion and preparation for the Hackathon
-                portion of the workshop. Join the Zoom meeting:{" "}
+                portion of the workshop. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
                   target="_blank"
@@ -336,7 +339,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for an introduction to the day’s activities. Ask questions
-                and get help from instructor Ginger Kowal. Join the Zoom meeting:{" "}
+                and get help from instructor Ginger Kowal.
+                <br /> Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95721627095?pwd=M0dwVjJmR1I1bjlQc3FjRUNnYWZSUT09"
                   target="_blank"
@@ -353,7 +357,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Jade
-                Delevaux. Join the Zoom meeting:{" "}
+                Delevaux. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
                   target="_blank"
@@ -370,7 +375,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Charlotte
-                Weil. Join the Zoom meeting:{" "}
+                Weil. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
                   target="_blank"
@@ -457,7 +463,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for an introduction to the day’s activities. Ask questions
-                and get help from instructor Ginger Kowal. Join the Zoom meeting:{" "}
+                and get help from instructor Ginger Kowal. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95721627095?pwd=M0dwVjJmR1I1bjlQc3FjRUNnYWZSUT09"
                   target="_blank"
@@ -474,7 +481,9 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Jade
-                Delevaux. Join the Zoom meeting:{" "}
+                Delevaux.
+                <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
                   target="_blank"
@@ -492,7 +501,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Charlotte
-                Weil. Join the Zoom meeting:{" "}
+                Weil. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
                   target="_blank"
@@ -564,7 +574,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for an introduction to the day’s activities. Ask questions
-                and get help from instructor Ginger Kowal. Join the Zoom meeting:{" "}
+                and get help from instructor Ginger Kowal. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95721627095?pwd=M0dwVjJmR1I1bjlQc3FjRUNnYWZSUT09"
                   target="_blank"
@@ -581,7 +592,8 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom to ask questions and get help from instructor Jade
-                Delevaux. Join the Zoom meeting:{" "}
+                Delevaux. <br />
+                Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
                   target="_blank"
@@ -598,6 +610,7 @@ function AboutPage(props) {
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for closing discussion led by instructor Charlotte Weil.
+                <br />
                 Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"

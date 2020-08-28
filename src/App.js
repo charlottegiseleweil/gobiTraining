@@ -89,8 +89,7 @@ class App extends React.Component {
           </Navbar>
 
           {/* Main content of each page*/}
-          {this.makeRouter(this.state.menuLinks)}
-
+          <div id="main_content">{this.makeRouter(this.state.menuLinks)}</div>
           {/* Footer*/}
           <Footer />
         </Container>
