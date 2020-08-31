@@ -1,7 +1,5 @@
 import React from "react";
 import Style from "./mapStyling";
-import Tooltip from "./tooltips";
-import Popup from "./popups";
 
 function Data() {
   return {
@@ -168,7 +166,8 @@ function Data() {
           style: Style().redOutline,
           legendSrc: "aoi_legend.png",
           selected: true,
-          link: "Placeholder",
+          link:
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/713803893122",
         },
         {
           id: 1,
@@ -179,7 +178,8 @@ function Data() {
           style: Style().redOutline,
           legendSrc: "aoi_legend.png",
           selected: false,
-          link: "Placeholder",
+          link:
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/713803893122",
         },
         {
           id: 2,
@@ -191,7 +191,7 @@ function Data() {
           legendSrc: "lulc_legend.png",
           selected: false,
           link:
-            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712952069944",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/713766611834",
         },
         {
           id: 3,
@@ -203,7 +203,7 @@ function Data() {
           legendSrc: "lulc_legend.png",
           selected: false,
           link:
-            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712952069944",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/713766611834",
         },
         {
           id: 4,
@@ -216,7 +216,7 @@ function Data() {
           legendSrc: "access_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/open?id=1UP8wiEaM3Bry6jwC8nVpWVfZefWiOWIf&authuser=jademd%40stanford.edu&usp=drive_fs",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/713789438290",
         },
         {
           id: 5,
@@ -228,7 +228,7 @@ function Data() {
           legendSrc: "roads_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kFYY6DCSpG45fM9lkJ6LNsnX5DDS-H0a/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 6,
@@ -240,7 +240,7 @@ function Data() {
           legendSrc: "agriculture_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kKC1YQRvmgQZbuuiPzeVrbOR90qIVkJs/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 7,
@@ -252,7 +252,7 @@ function Data() {
           legendSrc: "urban_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kSMBXoN174ox3iSqh6YdlwHFw6BenhRg/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 8,
@@ -264,7 +264,7 @@ function Data() {
           legendSrc: "herders_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kLGPrOJ2iFlUxqgHETPEr16VMWEH2cfH/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 9,
@@ -276,7 +276,7 @@ function Data() {
           legendSrc: "mines_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kPEZKwWBcvfS00urkVobl9tzw7yzKemw/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 10,
@@ -288,7 +288,7 @@ function Data() {
           legendSrc: "nightlight_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kUA_OwAITCg-gWVsKr9Ia7-Ytm7Um9QP/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
         {
           id: 11,
@@ -300,7 +300,7 @@ function Data() {
           legendSrc: "railways_legend.png",
           selected: false,
           link:
-            "https://drive.google.com/file/d/1kS7Uo9bR_fiomyc13caXQi6dYakEOlJP/view?usp=sharing",
+            "https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851819346",
         },
 
         /*{

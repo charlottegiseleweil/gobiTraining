@@ -2,6 +2,7 @@ import React from "react";
 import L from "leaflet";
 import shp from "shpjs";
 import Container from "react-bootstrap/Container";
+import "leaflet-spin";
 
 import Legend from "./Legend";
 
@@ -32,7 +33,6 @@ class MainMap extends React.Component {
         }),
       ],
     });
-    console.log(map);
     layers = L.layerGroup().addTo(map);
     this.updateLayers();
 
@@ -69,26 +69,28 @@ class MainMap extends React.Component {
 
   // function to update all selected layers
   updateLayers = () => {
-    this.props.chartIsLinked && updateChart([]);
-    layers.clearLayers();
-    this.props.selectedDatasets.forEach((id) => {
-      let dataset = this.props.datasets[id];
+    return new Promise(() => {
+      this.props.chartIsLinked && updateChart([]);
+      layers.clearLayers();
+      this.props.selectedDatasets.forEach((id) => {
+        let dataset = this.props.datasets[id];
 
-      switch (dataset.type) {
-        case "shapefile":
-          addShapefile(dataset, this.props.chartIsLinked);
-          break;
+        switch (dataset.type) {
+          case "shapefile":
+            addShapefile(dataset, this.props.chartIsLinked);
+            break;
 
-        case "tiles":
-          addTiles(dataset);
-          break;
+          case "tiles":
+            addTiles(dataset);
+            break;
 
-        case "raster":
-          addRaster(dataset);
-          break;
+          case "raster":
+            addRaster(dataset);
+            break;
 
-        default:
-      }
+          default:
+        }
+      });
     });
   };
 
@@ -162,6 +164,7 @@ function addShapefile(dataset, chartIsLinked) {
 }
 
 function addRaster(dataset) {
+  map.spin(true);
   let style = dataset.style
     ? dataset.style
     : (d) => {
@@ -176,6 +179,9 @@ function addRaster(dataset) {
           opacity: 0.7,
           pixelValuesToColorFn: (values) => style(values[0]),
           resolution: 64, // optional parameter for adjusting display resolution
+        });
+        layer.on("load", function () {
+          map.spin(false);
         });
         layer.addTo(layers);
       });

@@ -272,6 +272,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
 
@@ -315,15 +318,18 @@ function AboutPage(props) {
                 </li>
                 <li>
                   <a
-                    href="https://stanford.box.com/s/9ylqg5cys7oev8xsc9ao3odufqo39uyi"
+                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851794675"
                     target="_blank"
                     rel="noopener noreferrer">
                     Input data: Habitat Quality Model
                   </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Exercise: Habitat Quality Model !!MISSING LINK!!
+                  <a
+                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712746022729"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Exercise: Habitat Quality Model
                   </a>
                 </li>
                 <li>
@@ -396,6 +402,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
 
@@ -433,7 +442,7 @@ function AboutPage(props) {
                 </li>
                 <li>
                   <a
-                    href="https://stanford.box.com/s/4xq4p7s4cbii71pxoobdyy0yxh3s1ogd"
+                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/711811333408"
                     target="_blank"
                     rel="noopener noreferrer">
                     Input data: Rangeland Production Model
@@ -522,6 +531,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
               <ul>
@@ -551,11 +563,19 @@ function AboutPage(props) {
                   </a>
                 </li>
                 <li>
-                  <a href="">Input data: Carbon Model</a>
+                  <a
+                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851500470"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Input data: Carbon Model
+                  </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Exercise: Carbon Model !!MISSING LINK!!
+                  <a
+                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712950049005"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Exercise: Carbon Model
                   </a>
                 </li>
                 <li>
@@ -664,9 +684,6 @@ function AboutPage(props) {
           <hr className="hr-about" />
           <Row className="p-3 justify-content-md-center">
             {makeContributors(contributors)}
-          </Row>
-          <Row className=" justify-content-md-center">
-            <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
           </Row>
         </Col>
       </Row>
