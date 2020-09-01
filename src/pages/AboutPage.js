@@ -24,9 +24,9 @@ let contributors = [
     img: require("../static/images/cw.png"), // if none provided the noProfileImg will be used
   },
   {
-    name: "Lori Avila",
-    jobTitle: "Training Coordinator, NatCap, Stanford",
-    img: require("../static/images/lori-avila.jpg"),
+    name: "Jade Delevaux",
+    jobTitle: "Life Science Researcher, NatCap, Stanford University",
+    img: require("../static/images/jade.png"),
   },
   {
     name: "Otgonsuren Avirmed",
@@ -34,9 +34,9 @@ let contributors = [
     img: require("../static/images/oggie.jpg"),
   },
   {
-    name: "Jade Delevaux",
-    jobTitle: "Life Science Researcher, NatCap, Stanford University",
-    img: require("../static/images/jade.png"),
+    name: "Lori Avila",
+    jobTitle: "Training Coordinator, NatCap, Stanford",
+    img: require("../static/images/lori-avila.jpg"),
   },
   {
     name: "Anna Häägg",

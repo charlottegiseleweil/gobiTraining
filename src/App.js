@@ -27,7 +27,7 @@ class App extends React.Component {
           page: <DashboardPage props={Data().explorer} />,
         },
         {
-          title: "Rangelands",
+          title: "Rangelands (RPM)",
           path: "/rangelands",
           page: <RangelandsPage />,
         },
