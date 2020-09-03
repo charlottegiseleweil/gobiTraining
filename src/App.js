@@ -19,7 +19,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      viewerTitle: "InVEST Training ~ NatCap WCS ~ Mongolia September 2020",
+      viewerTitle: "Natural Capital Training in Mongolia, September 2020",
       menuLinks: [
         {
           title: "InVEST Models",

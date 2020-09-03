@@ -12,7 +12,7 @@ function Footer() {
           style={{ height: "3vh", paddingRight: " 0.5vh 1rem" }}>
           <Col className="d-flex justify-content-end">
             <p className="font-italic p-0 m-0 text-white" style={{ fontSize: "0.8rem" }}>
-              Gobi Training, Ulaanbaatar Mongolia, September 2020
+              Natural Capital Training for the Gobi Steppe (Mongolia), September 14-17, 2020
             </p>
           </Col>
         </Row>
