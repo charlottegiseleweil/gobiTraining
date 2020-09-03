@@ -71,6 +71,9 @@ function AboutPage(props) {
         </Row>
       </Col>
 
+
+    {/*Section 1*/}
+
       <Row className="justify-content-center p-4">
         <Col md={7}>
           {" "}
@@ -241,8 +244,8 @@ function AboutPage(props) {
                   </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Webinar: Urban Ecosystem Services Models !!MISSING LINK!!
+                  <a href="https://youtu.be/bur8aTUkNWQ" target="_blank" rel="noopener noreferrer">
+                    Webinar: Urban Ecosystem Services Models
                   </a>
                 </li>
               </ul>
@@ -272,12 +275,11 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            <Row className=" justify-content-md-center">
+            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
               <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>
+            </Row>*/}
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
-
               <ul>
                 <li>Install the InVEST model suite</li>
                 <li>Complete the Habitat Quality Model exercise</li>
@@ -288,8 +290,8 @@ function AboutPage(props) {
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Habitat Quality Model !!MISSING LINK!!
+                  <a href="https://stanford.box.com/s/izx4txhadbu9zyt3yomdiebypreuk4p2" target="_blank" rel="noopener noreferrer">
+                    Video: Introduction to the Habitat Quality Model
                   </a>
                 </li>
                 <li>
@@ -332,11 +334,11 @@ function AboutPage(props) {
                     Exercise: Habitat Quality Model
                   </a>
                 </li>
-                <li>
+                {/*<li>
                   <a href="" target="_blank" rel="noopener noreferrer">
                     Quiz: Habitat Quality Model !!MISSING LINK!!
                   </a>
-                </li>
+                </li>*/}
               </ul>
             </Row>
             <Row className="p-1 m-0">
@@ -402,9 +404,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            <Row className=" justify-content-md-center">
+            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
               <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>
+            </Row>*/}
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
 
@@ -418,18 +420,18 @@ function AboutPage(props) {
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Rangeland Production Model !!MISSING LINK!!
+                  <a href="https://stanford.box.com/s/3okoqo2bfm3y0ydci975659e845uosfl" target="_blank" rel="noopener noreferrer">
+                    Video: Introduction to the Rangeland Production Model
                   </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Quick Start Guide: Rangeland Production Model !!MISSING LINK!!
+                  <a href="https://stanford.box.com/s/4d8vod5flmcpledz39p2na4aco62bb6r" target="_blank" rel="noopener noreferrer">
+                    Quick Start Guide: Rangeland Production Model
                   </a>
                 </li>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Full documentation: Rangeland Production Model !!MISSING LINK!!
+                  <a href="https://stanford.box.com/s/6v9ynrkwstemxqz91aipc86ry9yqlgpw" target="_blank" rel="noopener noreferrer">
+                    Full documentation: Rangeland Production Model
                   </a>
                 </li>
                 <li>
@@ -531,9 +533,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            <Row className=" justify-content-md-center">
+            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
               <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>
+            </Row>*/}
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
               <ul>
@@ -550,8 +552,8 @@ function AboutPage(props) {
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
                 <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Carbon Model !!MISSING LINK!!
+                  <a href="https://stanford.box.com/s/hyqlub4s2t83lq5rtvxn6zfj3ky3izxc" target="_blank" rel="noopener noreferrer">
+                    Video: Introduction to the Carbon Model
                   </a>
                 </li>
                 <li>

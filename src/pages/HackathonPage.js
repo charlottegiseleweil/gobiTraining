@@ -125,7 +125,7 @@ function HackathonPage(props) {
             <h4
               className=" p-0 font-weight-normal"
               style={{ color: "var(--highlight-color)" }}>
-              Challenge H “Soil loss due Wind Erosion”
+              Challenge H “Soil loss due to Wind Erosion”
             </h4>
             <h5 className=" text-white font-weight-light p-0 ">
            We’re developing a new model on soil loss, due to wind erosion. Get the opportunity to participate in the creation of a new InVEST model, by finding data on soil loss/soil erosion in the Mongolian Gobi Steppe!
