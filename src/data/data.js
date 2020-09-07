@@ -211,7 +211,7 @@ function Data() {
           title: "Accessibility (Protected Areas)",
           type: "shapefile",
           src: "accessibility.zip",
-          style: Style().newColorStyle,
+          style: Style().accessScheme,
           styleProperty: "ACCESS", // change to the name of the shapefile property you want the styling to be based on
           legendSrc: "access_legend.png",
           selected: false,

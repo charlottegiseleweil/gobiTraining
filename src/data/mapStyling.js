@@ -2,9 +2,9 @@
 First, the different color schemas are defined. Then a function called "Style" 
 is declared which returns the styling objects that are exported to data.js 
 Shapefiles needs a seperate function to define opacity, fillcolor etc (see examples in style()) 
-Rasters only need the color Schema*/
+Rasters only need the colorScheme*/
 
-/*Examples diverging color schema*/
+/*Examples diverging colorscheme */
 const redToBlueColor = (d) => {
   return d > 0.9
     ? "#4878b7"
@@ -21,7 +21,7 @@ const redToBlueColor = (d) => {
     : "#d43c33";
 };
 
-/*Examples sequential colors schema*/
+/*Examples sequential colors scheme*/
 const bluesColor = (d) => {
   return d > 0.8
     ? "#08519c"
@@ -73,7 +73,23 @@ const purplesColor = (d) => {
     : null;
 };
 
-/*Examples catagorical color schema*/
+/*Examples catagorical colorscheme*/
+const accessibilityColor = (d) => {
+  switch (d) {
+    case 0:
+      return "#2892c7";
+    case 0.3:
+      return "#bfd48a";
+    case 0.6:
+      return "#fcb344";
+    case 0.9:
+      return "#e81515";
+    default:
+      return null;
+  }
+};
+
+
 const greenAndRedColor = (d) => {
   switch (d) {
     case 1:
@@ -242,6 +258,16 @@ function Style() {
       fillOpacity: 0.5,
     };
   }
+  function accessScheme(feature) {
+    return {
+      fillColor: accessibilityColor(feature),
+      weight: 0.5,
+      opacity: 0.9,
+      color: "#958f8f",
+      Array: "0",
+      fillOpacity: 0.5,
+    };
+}  
 
   // This exports an object containing all the styling functions to be used in data.js
   return {
@@ -260,6 +286,7 @@ function Style() {
     Nightlight: redsColor,
     Urban: Urban,
     Herders: purplesColor,
+    accessScheme:accessScheme,
   };
 }
 

@@ -275,9 +275,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
-              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>*/}
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/jQHs9BHvlCA" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
               <ul>
@@ -404,9 +404,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
-              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>*/}
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/IEZC3NaUXGA" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
 
@@ -533,9 +533,9 @@ function AboutPage(props) {
             </h4>
             <br />
             <br />
-            {/* VIDEO PLACEHOLDER <Row className=" justify-content-md-center">
-              <ReactPlayer url="https://youtu.be/iV9QBsCSxE4" controls={true} />
-            </Row>*/}
+            <Row className=" justify-content-md-center">
+              <ReactPlayer url="https://youtu.be/DlegxD_ma5I" controls={true} />
+            </Row>
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-normal">Tasks</h5>
               <ul>
