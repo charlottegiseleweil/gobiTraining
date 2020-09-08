@@ -27,7 +27,7 @@ function HackathonPage(props) {
             </h4>
             <h5 className=" text-white font-weight-light p-0 font-italic">
               Challenges submissions need to be compiled in a compressed folder named
-              team_number_Challenge_chosen (e.g “team4_challengeB.zip”), uploaded to
+              team_number_Challenge_chosen (e.g “team4_challengeB.zip”), uploaded to 
               <a href="https://stanford.app.box.com/f/5914553b816447bfb312df1239f9f3d3">
               this Box folder</a> by Thursday Sept 17th, 10PM UB Time. Decisions on winners will be
               announced by the end of that week.
