@@ -645,7 +645,7 @@ function AboutPage(props) {
               </h5>
             </Row>
           </Row>
-          {/* How to use the viewer */}
+          {/* How to use the viewer 
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">How to Use this Viewer</h2>
           </Row>
@@ -656,8 +656,8 @@ function AboutPage(props) {
               <InfoCircle /> Icon. <br />
               <br />
             </h5>
-          </Row>
-          {/* example of 2 columns*/}
+          </Row>*/}
+          {/* 2 columns*/}
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">Contacts</h2>
           </Row>
@@ -679,11 +679,11 @@ function AboutPage(props) {
               </h5>
             </Col>
           </Row>
-          {/* Contributors*/}
+          {/* Contributors
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">Contributors</h2>
           </Row>
-          <hr className="hr-about" />
+          <hr className="hr-about" />*/}
           <Row className="p-3 justify-content-md-center">
             {makeContributors(contributors)}
           </Row>

@@ -27,12 +27,36 @@ function HackathonPage(props) {
             </h4>
             <h5 className=" text-white font-weight-light p-0 font-italic">
               Challenges submissions need to be compiled in a compressed folder named
-              team_number_Challenge_chosen (e.g “team4_challengeB.zip”), uploaded to 
-              <a href="https://stanford.app.box.com/f/5914553b816447bfb312df1239f9f3d3">
-              this Box folder</a> by Thursday Sept 17th, 10PM UB Time. Decisions on winners will be
+              team_number_Challenge_chosen (e.g “team4_challengeB.zip”), 
+              uploaded to <a href="https://stanford.app.box.com/f/5914553b816447bfb312df1239f9f3d3"> this Box folder</a> by Thursday Sept 17th, 10PM UB Time. 
+            </h5>
+            <h5 className=" text-white font-weight-light p-0 font-italic">
+              Each team can share submissions to several challenges. 
+              Decisions on winners will be
               announced by the end of that week.
             </h5>
           </Row>
+
+
+
+          <Row className="p-1 justify-content-md-center">
+            <h2 className="text-center font-weight-normal ">Prizes</h2>
+          </Row>
+          <hr className="hr-about" />
+          <Row className="p-3 ">
+            <h5 className=" text-white font-weight-light p-0">
+              The most successful team will be rewarded with the opportunity to feature their work 
+              on the Gobi Training Viewer, and each member of this winning team will receive a <a href="https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-5000-laptop/spd/inspiron-15-5593-laptop/nn5593ehcxs">
+              Dell Inspiron Laptop</a> as a gift!
+            </h5>
+            <h5 className=" text-white font-weight-light p-0 font-italic ">
+              All teams that produce outstanding presentation of model results will be invited to contribute maps and model results to WCS’s report, and potentially be featured in the Natural Capital Project newsletter and website.
+            </h5>
+          </Row>
+
+
+
+
 
           <Row className="p-1 justify-content-md-center">
             <h2 className="text-center font-weight-normal ">Challenges</h2>
@@ -134,20 +158,6 @@ function HackathonPage(props) {
             </h5>
           </Row>
 
-
-          <Row className="p-1 justify-content-md-center">
-            <h2 className="text-center font-weight-normal ">Prizes</h2>
-          </Row>
-          <hr className="hr-about" />
-          <Row className="p-3 ">
-            <h5 className=" text-white font-weight-light p-3 ">
-              For each challenge, the most successful team will be chosen, and rewarded
-              with the opportunity to feature their work on the Gobi Training Viewer, and
-              potentially even in the Natural Capital Project newsletter and website.
-              Teams that produce outstanding presentation of model results will be invited
-              to contribute maps and model results to WCS’s report.
-            </h5>
-          </Row>
         </Col>
       </Row>
     </Container>
