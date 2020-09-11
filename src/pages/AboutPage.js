@@ -87,6 +87,9 @@ function AboutPage(props) {
           <hr className="hr-about" />
           <Row className=" justify-content-md-center">
             <h5 className="p-4 font-weight-light ">
+              All times given in Ulaanbaatar local time.
+            </h5>
+            <h5 className="p-4 font-weight-light ">
               Day 1 of the virtual event will give participants an introduction to the
               concepts, approaches, and tools developed by the Natural Capital Project to
               enhance understanding of ecosystem services. <br />
@@ -94,9 +97,14 @@ function AboutPage(props) {
               computers and complete exercises using model input data provided by the
               instructors. Each day will have an assigned exercise and accompanying quiz.
               Find links to the input data, exercise, and quiz in the daily schedule for
-              that day.
+              that day, and answers to <a href="https://stanford.app.box.com/s/n8t2fh97ikhb02e60rze3pc03hkr9w8s">Frequently Asked Questions</a>.
             </h5>
+
           </Row>
+
+
+
+
           <Row className="p-4 ">
             <h4
               className=" p-0 font-weight-normal"
@@ -106,15 +114,13 @@ function AboutPage(props) {
             <br />
             <br />
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
-                8 am – 10 am: Welcome and Orientation (Ginger Kowal)
+              <h5 className=" p-0 font-weight-bold">
+                9 am – 12 pm: The Natural Capital Approach
               </h5>
               <h5 className=" p-0 font-weight-light">
-                All participants log on to Zoom for a virtual welcome and orientation to
-                the workshop. <br />
                 Join the Zoom meeting:{" "}
                 <a
-                  href="https://stanford.zoom.us/j/95721627095?pwd=M0dwVjJmR1I1bjlQc3FjRUNnYWZSUT09"
+                  href="https://stanford.zoom.us/j/91956941487?pwd=MHJYTUozM1BRZEtKdm5SWXJDYWdRQT09"
                   target="_blank"
                   rel="noopener noreferrer">
                   {" "}
@@ -122,54 +128,12 @@ function AboutPage(props) {
                 </a>
                 . Password: 007895
               </h5>
-            </Row>
-            <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
-                11 am – 1 pm: Office Hours (Jade Delevaux)
-              </h5>
-              <h5 className=" p-0 font-weight-light">
-                Log on to Zoom to ask questions and get help from instructor Jade
-                Delevaux. <br />
-                Join the Zoom meeting:{" "}
-                <a
-                  href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {" "}
-                  click here
-                </a>
-                . Password: 007895
+              <h5 className=" p-0 font-weight-light font-italic">
+                All participants log on to Zoom for a virtual welcome and orientation to the workshop.
+Otgonsuren Avirmed (Conservation Science Program Manager, WCS) will lead all participants in self-paced viewing of training videos. Videos explain the Natural Capital Approach and case study applications of the approach by Natural Capital Project scientists. <br />
               </h5>
             </Row>
-            <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
-                3 pm – 5 pm: Discussion of the Natural Capital Approach and Preparation
-                for Hackathon (Charlotte Weil)
-              </h5>
-              <h5 className=" p-0 font-weight-light">
-                Log on to Zoom for a virtual discussion and preparation for the Hackathon
-                portion of the workshop. <br />
-                Join the Zoom meeting:{" "}
-                <a
-                  href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {" "}
-                  click here
-                </a>
-                . Password: 007895
-              </h5>
-            </Row>
-
-            <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal font-italic">
-                Self-paced: The Natural Capital Approach
-              </h5>
-              <h5 className=" p-0 font-weight-light">
-                All participants watch the following training videos to learn about the
-                Natural Capital Approach and hear about case study applications of the
-                approach by Natural Capital Project scientists.
-              </h5>
+                        <Row className="p-1 m-0">
               <ul>
                 <li>
                   <a
@@ -221,7 +185,7 @@ function AboutPage(props) {
                   </a>
                 </li>
               </ul>
-              <h5 className=" p-0 font-weight-light">
+              <h5 className=" p-0 font-weight-light font-italic">
                 The following additional videos are suggested for participants who want to
                 learn more about ongoing Natural Capital Project work in parts of the
                 world that are different from Mongolia.
@@ -250,23 +214,72 @@ function AboutPage(props) {
                 </li>
               </ul>
             </Row>
+
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal font-italic">
-                Self-paced: Preparation for Hackathon
+              <h5 className=" p-0 font-weight-bold">
+                1 pm – 2 pm: Office Hours (Jade Delevaux)
               </h5>
               <h5 className=" p-0 font-weight-light">
-                Teams participating in the Hackathon should install the InVEST model suite
-                on their computers. Follow the instructions here to install InVEST:{" "}
+                Log on to Zoom to ask questions and get help from instructor Jade
+                Delevaux. <br />
+                Join the Zoom meeting:{" "}
                 <a
-                  href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/getting_started.html"
+                  href="https://stanford.zoom.us/j/98380723673?pwd=UkFKcVhoelIxVUZZK0ZzU2JMM0hDQT09"
                   target="_blank"
                   rel="noopener noreferrer">
                   {" "}
                   click here
                 </a>
+                . Password: 007895
               </h5>
             </Row>
-          </Row>
+
+            <Row className="p-1 m-0">
+              <h5 className=" p-0 font-weight-bold">
+                Self-paced: Preparation for Hackathon
+              </h5>
+              <h5 className=" p-0 font-weight-light font-italic">
+                Teams participating in the Hackathon should install the InVEST model suite
+                on their computers. </h5>
+                <ul>
+                <li>
+                Follow the {" "}
+                <a
+                  href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/getting_started.html"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {" "}
+                  instructions to install InVEST
+                </a></li>
+                <li> Review guidelines for <a href='http://viz.naturalcapitalproject.stanford.edu/gobiTraining/#/hackathon'>Hackathon challenges</a></li></ul>
+            </Row>
+
+
+            <Row className="p-1 m-0">
+              <h5 className=" p-0 font-weight-bold">
+                3 pm – 5 pm: Discussion of the Natural Capital Approach and Preparation
+                for Hackathon (Charlotte Weil)
+              </h5>
+              <h5 className=" p-0 font-weight-light">
+                Log on to Zoom for a virtual discussion and preparation for the Hackathon
+                portion of the workshop. <br />
+                Join the Zoom meeting:{" "}
+                <a
+                  href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {" "}
+                  click here
+                </a>
+                . Password: 007895
+              </h5>
+            </Row>
+       </Row>
+
+
+
+
+
           <Row className="p-4 ">
             <h4
               className=" p-0 font-weight-normal"
@@ -289,9 +302,9 @@ function AboutPage(props) {
             <Row>
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
-                <li>
-                  <a href="https://stanford.box.com/s/izx4txhadbu9zyt3yomdiebypreuk4p2" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Habitat Quality Model
+                <li>Introduction to the Habitat Quality Model {" "}
+                  <a href="https://youtu.be/jQHs9BHvlCA" target="_blank" rel="noopener noreferrer">
+                    Video
                   </a>
                 </li>
                 <li>
@@ -310,39 +323,46 @@ function AboutPage(props) {
                     Instructions for installing InVEST
                   </a>
                 </li>
-                <li>
+                <li>Habitat Quality Model {" "}
                   <a
                     href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/habitat_quality.html?highlight=habitat quality"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Users’ Guide: Habitat Quality Model
+                    Users’ Guide
                   </a>
                 </li>
-                <li>
+                <li>Habitat Quality Model Input Data: {" "}
                   <a
-                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851794675"
+                    href="https://stanford.box.com/s/9ylqg5cys7oev8xsc9ao3odufqo39uyi"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Input data: Habitat Quality Model
+                    direct download
                   </a>
-                </li>
-                <li>
+                  or {" "}
                   <a
-                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712746022729"
+                    href="http://viz.naturalcapitalproject.stanford.edu/gobiTraining/"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Exercise: Habitat Quality Model
+                    view/download online
+                  </a>.
+                </li>
+                <li>Habitat Quality Model {" "}
+                  <a
+                    href="https://stanford.box.com/s/zebjh6mh7i2dott09m942j6zw9rk90yz"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Exercise
                   </a>
                 </li>
-                {/*<li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    Quiz: Habitat Quality Model !!MISSING LINK!!
+                <li>Habitat Quality Model {" "}
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScvpsGul-zsEnB-MzUpMXVnhlf7as7amvZjpJI54Jshqg-PUw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                    Quiz
                   </a>
-                </li>*/}
+                </li>
               </ul>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bols">
                 8 am – 10 am: Daily orientation and office hours (Ginger Kowal)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -360,7 +380,7 @@ function AboutPage(props) {
               </h5>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 11 am – 1 pm: Office Hours (Jade Delevaux)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -378,7 +398,7 @@ function AboutPage(props) {
               </h5>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 3 pm – 5 pm: Office Hours (Charlotte Weil)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -396,6 +416,14 @@ function AboutPage(props) {
               </h5>
             </Row>
           </Row>
+
+
+
+
+
+
+
+
           <Row className="p-4 ">
             <h4
               className=" p-0 font-weight-normal"
@@ -419,57 +447,65 @@ function AboutPage(props) {
             <Row>
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
-                <li>
-                  <a href="https://stanford.box.com/s/3okoqo2bfm3y0ydci975659e845uosfl" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Rangeland Production Model
+                <li>: Introduction to the Rangeland Production Model {" "}
+                  <a href="https://youtu.be/IEZC3NaUXGA" target="_blank" rel="noopener noreferrer">
+                    Video
                   </a>
                 </li>
-                <li>
+                <li>Rangeland Production Model {" "}
                   <a href="https://stanford.box.com/s/4d8vod5flmcpledz39p2na4aco62bb6r" target="_blank" rel="noopener noreferrer">
-                    Quick Start Guide: Rangeland Production Model
+                    Quick Start Guide
                   </a>
                 </li>
-                <li>
-                  <a href="https://stanford.box.com/s/6v9ynrkwstemxqz91aipc86ry9yqlgpw" target="_blank" rel="noopener noreferrer">
-                    Full documentation: Rangeland Production Model
+                <li>Rangeland Production Model {" "}
+                  <a href="https://github.com/natcap/rangeland_production/releases/download/0.1.6/Documentation_RPM_0.1.6.pdf" target="_blank" rel="noopener noreferrer">
+                    Full documentation
                   </a>
                 </li>
-                <li>
+                <li>Rangeland Production Model {" "}
                   <a
-                    href="https://github.com/natcap/rangeland_production/releases/latest"
+                    href="https://github.com/natcap/rangeland_production/releases/download/0.1.6/Rangeland_Production_0.1.6_x86_Setup.exe"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Download the Rangeland Production Model installer
+                    Download the RPM installer
                   </a>
                 </li>
-                <li>
+                <li>Rangeland Production Model {" "}
                   <a
-                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/711811333408"
+                    href="https://stanford.box.com/s/4xq4p7s4cbii71pxoobdyy0yxh3s1ogd"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Input data: Rangeland Production Model
+                    Input data
                   </a>
                 </li>
-                <li>
+                <li>Rangeland Production Model {" "}
                   <a
                     href="https://stanford.box.com/s/6v9ynrkwstemxqz91aipc86ry9yqlgpw"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Exercise: Rangeland Production Model
+                    Exercise
                   </a>
                 </li>
-                <li>
+                <li>Rangeland Production Model {" "}
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdgWXG74ME6uaJIh3zDTHSF7Tw4ukCFpYfJd6OvipCZuIN65w/viewform?usp=sf_link"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Quiz: Rangeland Production Model
+                    Quiz
+                  </a>
+                </li>
+                <li>Rangeland Production Model {" "}
+                  <a
+                    href="http://viz.naturalcapitalproject.stanford.edu/gobiTraining/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Interactive data viewer
                   </a>
                 </li>
               </ul>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 8 am – 10 am: Daily orientation and office hours (Ginger Kowal)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -487,7 +523,7 @@ function AboutPage(props) {
               </h5>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 11 am – 1 pm: Office Hours (Jade Delevaux)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -507,7 +543,7 @@ function AboutPage(props) {
             </Row>
 
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 3 pm – 5 pm: Office Hours (Charlotte Weil)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -525,6 +561,13 @@ function AboutPage(props) {
               </h5>
             </Row>
           </Row>
+
+
+
+
+
+
+
           <Row className="p-4 ">
             <h4
               className=" p-0 font-weight-normal"
@@ -546,52 +589,64 @@ function AboutPage(props) {
                   Synthesize results from Habitat Quality, Rangeland Condition, and Carbon
                   Models
                 </li>
-              </ul>
+                <li className=" p-0 font-weight-bold">Prepare a 3-minute final presentation for your team, showcasing your results from this week (by 2pm).
+                </li>
+                <li className=" p-0 font-weight-bold">Submit a hackathon challenge submission (due 10pm).
+                </li>
+                </ul>
+
             </Row>
             <Row>
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
-                <li>
-                  <a href="https://stanford.box.com/s/hyqlub4s2t83lq5rtvxn6zfj3ky3izxc" target="_blank" rel="noopener noreferrer">
-                    Video: Introduction to the Carbon Model
+                <li> Introduction to the Carbon Model {" "}
+                  <a href="https://youtu.be/DlegxD_ma5I" target="_blank" rel="noopener noreferrer">
+                    Video
                   </a>
                 </li>
-                <li>
+                <li> Carbon Model {" "}
                   <a
                     href="https://storage.googleapis.com/releases.naturalcapitalproject.org/invest-userguide/latest/carbonstorage.html?highlight=carbon"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Users’ Guide: Carbon Model
+                    Users’ Guide
                   </a>
                 </li>
-                <li>
+                <li> Carbon Model Input data {" "}
                   <a
-                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/folder/121851500470"
+                    href="https://stanford.box.com/s/ekk582yua68ntkc3vzrn3ugij992mckw"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Input data: Carbon Model
+                    direct download
+                  </a>
+                  or 
+                  <a
+                    href="http://viz.naturalcapitalproject.stanford.edu/gobiTraining/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    view online
                   </a>
                 </li>
-                <li>
+                <li> Carbon Model {" "}
                   <a
-                    href="https://stanford.app.box.com/s/7jlo0ba7qkn5lf6nu1igfjdiusxcje1o/file/712950049005"
+                    href="https://stanford.box.com/s/yq2gm4iyuca6atxikli0xriiexwesxxs"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Exercise: Carbon Model
+                    Exercise
                   </a>
                 </li>
-                <li>
+                <li> Carbon Model {" "}
                   <a
-                    href="https://forms.gle/EMs2p5Km58FSM19V8"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScDai8ZI4fXe3HnvvpKnStk3MZyg53i0CrYlgsUE8th6epEAg/viewform?usp=sf_link"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Quiz: Carbon Model
+                    Quiz
                   </a>
                 </li>
               </ul>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 8 am – 10 am: Daily orientation and office hours (Ginger Kowal)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -609,7 +664,7 @@ function AboutPage(props) {
               </h5>
             </Row>
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
+              <h5 className=" p-0 font-weight-bold">
                 11 am – 1 pm: Office Hours (Jade Delevaux)
               </h5>
               <h5 className=" p-0 font-weight-light">
@@ -626,13 +681,22 @@ function AboutPage(props) {
                 . Password: 007895
               </h5>
             </Row>
+
             <Row className="p-1 m-0">
-              <h5 className=" p-0 font-weight-normal">
-                3 pm – 5 pm: Closing Discussion (Charlotte Weil)
+              <h5 className=" p-0 font-weight-bold">
+                By 2 pm: Final Presentation slides submissions
+              </h5>
+              <h5 className=" p-0 font-weight-light font-italic"> 
+                  Please use Google Slides and send a link to your slides (5 slides maximum) to chweil@stanford.edu before 2 pm!
+              </h5>
+            </Row>
+
+            <Row className="p-1 m-0">
+              <h5 className=" p-0 font-weight-bold">
+                3 pm – 5 pm: inal Presentations by Hackathon Teams & Closing Discussion (Charlotte Weil)
               </h5>
               <h5 className=" p-0 font-weight-light">
-                Log on to Zoom for closing discussion led by instructor Charlotte Weil.
-                <br />
+                Log on to Zoom for final presentations from each team and a closing discussion led by instructor Charlotte Weil.                <br />
                 Join the Zoom meeting:{" "}
                 <a
                   href="https://stanford.zoom.us/j/95998315863?pwd=SzBiU2JldjFidkg5SkhiczBGZVA3UT09"
@@ -644,6 +708,27 @@ function AboutPage(props) {
                 . Password: 007895
               </h5>
             </Row>
+
+            <Row className="p-1 m-0">
+              <h5 className=" p-0 font-weight-bold">
+                By 10 pm: Hackathon challenges submissions
+              </h5>
+              <h5 className=" p-0 font-weight-light font-italic"> 
+                  Teams participating in Hackathon Challenges must compile their submission in a compressed folder named “team_number_challenge_chosen.zip” (e.g., “team4_challengeB.zip”), and upload the compressed folder to {" "}
+                  <a href="https://stanford.app.box.com/f/5914553b816447bfb312df1239f9f3d3" target="_blank">
+                   this Box folder </a>
+                  by 10 pm on Thursday, September 17. Challenge winners will be announced by the end of the week.
+              </h5>
+            </Row>
+
+              <br /><br />
+            <h5 className=" p-0 font-weight-bold">
+             Please provide feedback to NatCap using {" "}
+             <a href="https://forms.gle/GUJMNzmDGjoChB689" target="_blank">
+                   this survey.</a> Thank you!
+             
+            </h5>
+
           </Row>
           {/* How to use the viewer 
           <Row className="p-1 justify-content-md-center">
