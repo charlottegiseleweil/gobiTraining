@@ -447,7 +447,7 @@ Otgonsuren Avirmed (Conservation Science Program Manager, WCS) will lead all par
             <Row>
               <h5 className=" font-weight-normal">Resources</h5>
               <ul>
-                <li>: Introduction to the Rangeland Production Model {" "}
+                <li>Introduction to the Rangeland Production Model {" "}
                   <a href="https://youtu.be/IEZC3NaUXGA" target="_blank" rel="noopener noreferrer">
                     Video
                   </a>
@@ -693,7 +693,7 @@ Otgonsuren Avirmed (Conservation Science Program Manager, WCS) will lead all par
 
             <Row className="p-1 m-0">
               <h5 className=" p-0 font-weight-bold">
-                3 pm – 5 pm: inal Presentations by Hackathon Teams & Closing Discussion (Charlotte Weil)
+                3 pm – 5 pm: Final Presentations by Hackathon Teams & Closing Discussion (Charlotte Weil)
               </h5>
               <h5 className=" p-0 font-weight-light">
                 Log on to Zoom for final presentations from each team and a closing discussion led by instructor Charlotte Weil.                <br />
@@ -726,7 +726,11 @@ Otgonsuren Avirmed (Conservation Science Program Manager, WCS) will lead all par
              Please provide feedback to NatCap using {" "}
              <a href="https://forms.gle/GUJMNzmDGjoChB689" target="_blank">
                    this survey.</a> Thank you!
-             
+            <br />
+                   
+                   
+                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKMhqJXVBR_mjAv_bH1aoEEv3YKqoGvDJSBhLlbs09YNvE4g/viewform?embedded=true" width="640" height="2925" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    
             </h5>
 
           </Row>
